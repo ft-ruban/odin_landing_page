@@ -22,6 +22,40 @@
     color: white;
 }
 
+.title{
+    display:flex;
+    padding-top:50px;
+    color: white;
+}
+
+.title button{
+    background-color: rgb(91, 132, 208);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border: 0;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 80px;
+    background-image: linear-gradient( to top left, rgb(0 0 0 / 0.2), rgb(0 0 0 / 0.2) 30%, transparent );
+    color: white;
+    box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+.title button:hover{
+  background-color: blue;
+}
+
+.title button:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
+}
+
+
 header{
     background-color: rgb(37,45,57);
     margin: -8px;
